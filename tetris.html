@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="tetris.css">
+		<script type="text/javascript" src="tetris.js" defer></script>
+		<title>Tetris</title>
+	</head>
+	<body>
+		<div>
+			<canvas id="canvasBoard">
+				Your browser does not support the canvas tag.
+			</canvas>
+			<canvas id="canvasNextShape">
+				Your browser does not support the canvas tag.
+			</canvas>
+		</div>
+		<div id="statistics">
+			<div id="score">
+				<label for="scoreData">Score :</label>
+				<p id="scoreData"></p>
+			</div>
+			<div id="lineCount">
+				<label for="lineCountData">Line Count :</label>
+				<p id="lineCountData"></p>
+			</div>
+			<div id="level">
+				<label for="levelData">Level :</label>
+				<p id="levelData"></p>
+			</div>
+			<div id="nextLevel">
+				<label for="nextLevelData">Next Level :</label>
+				<progress id="nextLevelData" value="0" max="10"></progress>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+
+#canvasBoard, #canvasNextShape {
+    /* Don't put width or height of canvas here, else it will keep its original size then the content will be resized to size put here */
+    border: 4px solid #000000;
+}
+
+#statistics {
+    width: 400px;
+}
+
+label {
+    font-weight: bold;
+    float: left;
+    width: 100px;
+}
